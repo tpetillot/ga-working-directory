@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: echo "$HOME"
       - run: echo "$HOME"
-        working-directory: ~/toto/test
+        working-directory: ~/
