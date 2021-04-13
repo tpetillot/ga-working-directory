@@ -5,6 +5,6 @@ jobs:
   unit:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "$HOME"
-      - run: echo "$HOME"
-        working-directory: ~/
+      - run: ls /
+      - run: ls /home
+      - run: ls /home/runner
