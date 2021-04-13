@@ -5,10 +5,6 @@ jobs:
   unit:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "$HOME"
-          mkdir -p ~/toto/test  # work
-      - run: |
-          echo "$HOME"
-          mkdir -p ~/titi/test  # doesn't work
+      - run: echo "$HOME"
+      - run: echo "$HOME"
         working-directory: ~/toto/test
